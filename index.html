@@ -1,45 +1,98 @@
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Laguna Brava Ecotourism</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Laguna Brava Ecotourism</title>
+</head>
+
+<body>
+    <header>
         <img src="set/panoramic-laguna-brava-2.jpg" alt="Laguna Brava lake" title="Laguna Brava">
         <h1>Welcome To Laguna Brava Ecotourism</h1>
         <p>
             Learn everything about the actvites that Laguna Brava offers to its visitors.
         </p>
-
-        <h3>The Lake Challenge</h3>
-        <img src="set/kayak.jpg" alt="Lake challenge kayak" title="Kayak on Laguna Brava">
-        <p>
-            Put your strengths to work by crossing the four kilometers 
-            in a kayak guided by a local guide. This adventure is physically 
-            demanding and recommended for only those in excellent physical condition.
-        </p>
-        <ul>
-            <li>Duration: 5 hours approx.</li>
-            <li>Price: $50 USD</li>
-            <li>Minimum: 2 pax</li>
-        </ul>
-
-        <h3>Sit Back & Relax</h3>
-        <img src="set/boat.jpg" alt="Sit Back & Relax boat" title="Boat trip">
-        <p>
-            Admire the nature of Laguna Brava by boarding a rowing boat around the most beautiful 
-            parts of the lake. This guided visit does not require physical effort.
-        </p>
-        <ul>
-            <li>Duration: 3 hours approx.</li>
-            <li>Price: $40 USD</li>
-            <li>Minimum: 4 pax</li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#communities">The Local Communities</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="activities">
+            <h2>Activities</h2>
+            <p>
+                The communities offer two activities for guided visits that allow visitors to enjoy Laguna Brava's
+                natural
+                beauty. In both activities, <strong>members of the Laguna Brava's community provide life vests and local
+                    guides
+                    who
+                    know
+                    the lake very well to ensure your safety</strong>.
+            </p>
 
 
-        <h2>Loca Communities</h2>
-        <p>
-            The area around Laguna Brava has been inhabited by Mayan communities of the <a href=["https://en.wikipedia.org/wiki/Karst](https://en.wikipedia.org/wiki/Chuj_people)">Chuj ethnicity</a> since the 19th century. Members of these communities welcome travelers from all regions of the world looking for adventure and nature. They believe that visitors and responsible ecotourism practices are essential to support the development of their communities.
-        </p>
+            <article>
+                <h3>The Lake Challenge</h3>
+
+                <figure>
+                    <img src="set/kayak.jpg" alt="Lake challenge kayak" title="Kayak on Laguna Brava">
+                    <figcaption>Cross the four kilometers in a kayak.</figcaption>
+                </figure>
+
+                <p>
+                    Put your strengths to work by crossing the four kilometers
+                    in a kayak guided by a local guide. This adventure is physically
+                    demanding and recommended for only those in excellent physical condition.
+                </p>
+                <ul>
+                    <li>Duration: 5 hours approx.</li>
+                    <li>Price: $50 USD</li>
+                    <li>Minimum: 2 pax</li>
+                </ul>
+            </article>
+
+
+            <article>
+                <h3>Sit Back & Relax</h3>
+
+                <figure>
+                    <img src="set/boat.jpg" alt="Sit Back & Relax boat" title="Boat trip">
+                    <figcaption>Board a rowing boat and admire the nature of Laguna Brava.</figcaption>
+                </figure>
+
+                <p>
+                    Admire the nature of Laguna Brava by boarding a rowing boat around the most beautiful
+                    parts of the lake. This guided visit does not require physical effort.
+                </p>
+                <ul>
+                    <li>Duration: 3 hours approx.</li>
+                    <li>Price: $40 USD</li>
+                    <li>Minimum: 4 pax</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="communities">
+            <h2>The Local Communities</h2>
+            <p>
+                The area around Laguna Brava has been inhabited by Mayan communities of the <a
+                    href=["https://en.wikipedia.org/wiki/Karst](https://en.wikipedia.org/wiki/Chuj_people)">Chuj
+                    ethnicity</a> since the 19th century. Members of these communities welcome travelers from all
+                regions of
+                the world looking for adventure and nature. They believe that visitors and <em>responsible
+                    ecotourism</em>
+                practices
+                are essential to support the development of their communities.
+            </p>
+        </section>
+    </main>
+
+
+    <hr />
+    <aside>
         <h2>Have you Travelled to Laguna Brava?</h2>
         <form action="https://api.sheetmonkey.io/form/fWc22cBp3bGFiFybNiDwH1" method="POST">
             <label for="name">Name: </label>
@@ -47,9 +100,15 @@
             <label for="email">Email: </label>
             <input type="email" name="visitor_email" id="email" placeholder="Write your email"><br><br>
             <label for="experience">Experience: </label>
-            <textarea name="visitor_experience" id="experience" placeholder="Please share with us your experience." rows="5" cols="50"></textarea><br><br>
+            <textarea name="visitor_experience" id="experience" placeholder="Please share with us your experience."
+                rows="5" cols="50"></textarea><br><br>
             <input type="submit" value="Submit">
         </form>
+    </aside>
+    <footer>
+        &copy; Laguna Brava Ecotourism
+    </footer>
 
-    </body>
+</body>
+
 </html>
